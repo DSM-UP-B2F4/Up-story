@@ -3,25 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./FeedPage.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-/>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300;500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 </head>
 <body>
+  <!-- nav -->
   <nav>
       <div class="navLeftContent">
           <a href="#" class="navTitleImg"><img src="./navTitleImg.png"></a>
-           <ul>
-             <li class="navLi"><a href="#" id="navLiFeed">피드</a></li>
-             <li class="navLi"><a href="#">스토리</a></li>
-             <li class="navLi"><a href="#">스킨</a></li>
-             <li class="navLi"><a href="#">포럼</a></li>
-           </ul>
+          <ul>
+            <li class="navLi"><a href="#" id="navLiFeed">피드</a></li>
+            <li class="navLi"><a href="#">스토리</a></li>
+            <li class="navLi"><a href="#">스킨</a></li>
+            <li class="navLi"><a href="#">포럼</a></li>
+          </ul>
            <div class="notice"> <!-- width 1280에 사라짐 -->
                <img src="./navNoticeSoundImg.PNG" alt="">
                <a href="#">[안내] 카카오계정과 수익 메뉴 오픈</a>
@@ -34,5 +31,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
           </div>
       </div>
   </nav>
+  <!-- section -->
+  <section>
+      <div class="subscribe">
+        <div class="subscribeLeft">
+          <p>Feed</p>
+          <p id="test">내가 구독하는 글입니다</p>
+        </div>
+        <div class="subscribeRight">
+          <a href="#">구독중<span>0</span></a>
+          <a href="#">구독자<span>0</span></a>
+        </div>
+      </div>
+  </section>
 </body>
 </html>
